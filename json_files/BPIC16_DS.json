@@ -1,7 +1,7 @@
 [
   {
     "name": "BPIC16Complaints",
-    "file_directory": "data\\BPIC16\\prepared\\",
+    "file_directory": "data\\prepared\\",
     "file_name": "BPIC16Complaints.csv",
     "labels": [
       "CustomerRecord",
@@ -226,7 +226,7 @@
   },
   {
     "name": "BPIC16Questions",
-    "file_directory": "data\\BPIC16\\prepared\\",
+    "file_directory": "data\\prepared\\",
     "file_name": "BPIC16Questions.csv",
     "labels": [
       "CustomerRecord",
@@ -435,7 +435,7 @@
   },
   {
     "name": "BPIC16Messages",
-    "file_directory": "data\\BPIC16\\prepared\\",
+    "file_directory": "data\\prepared\\",
     "file_name": "BPIC16Messages.csv",
     "labels": [
       "CustomerRecord",
@@ -560,7 +560,7 @@
   },
   {
     "name": "BPIC16Clicks",
-    "file_directory": "data\\BPIC16\\prepared\\",
+    "file_directory": "data\\prepared\\",
     "file_name": "BPIC16Clicks.csv",
     "labels": [
       "CustomerRecord",

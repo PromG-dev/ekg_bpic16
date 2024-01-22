@@ -11,8 +11,10 @@ import time
 import os
 
 # config
-input_path = os.path.join(os.getcwd(), "..", "data", "BPIC16")
+input_path = os.path.join(os.getcwd(), "..", "data")
 output_path = os.path.join(input_path, "prepared")  # where prepared files will be stored
+if not os.path.exists(output_path):
+    os.makedirs(output_path)
 file_name = 'BPIC16'
 
 
