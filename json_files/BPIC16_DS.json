@@ -14,7 +14,7 @@
       "ContactChannelRecord"
     ],
     "add_log": true,
-    "add_index": false,
+    "add_index": true,
     "sample": {
       "use_random_sample": false,
       "population_column": "CustomerID",
@@ -59,7 +59,7 @@
           }
         ],
         "datetime_object": {
-          "format": "y-M-d"
+          "format": "%Y-%m-%d"
         },
         "optional": false
       },
@@ -286,8 +286,7 @@
         ],
         "separator": " ",
         "datetime_object": {
-          "format": "y-M-d H:m:s.nX",
-          "timezone_offset": "+01"
+          "format": "%Y-%m-%d %H:%M:%S.%f"
         },
         "optional": false
       },
@@ -303,8 +302,7 @@
         ],
         "separator": " ",
         "datetime_object": {
-          "format": "y-M-d H:m:s.nX",
-          "timezone_offset": "+01"
+          "format": "%Y-%m-%d %H:%M:%S.%f"
         },
         "optional": false
       },
@@ -493,8 +491,7 @@
         ],
         "separator": " ",
         "datetime_object": {
-          "format": "y-M-d H:m:s.nX",
-          "timezone_offset": "+01"
+          "format": "%Y-%m-%d %H:%M:%S.%f"
         },
         "optional": false
       },
@@ -572,7 +569,7 @@
       "IPRecord"
     ],
     "add_log": true,
-    "add_index": false,
+    "add_index": true,
     "sample": {
       "use_random_sample": false,
       "population_column": "CustomerID",
@@ -617,8 +614,7 @@
           }
         ],
         "datetime_object": {
-          "format": "y-M-d H:m:s.nX",
-          "timezone_offset": "+01"
+          "format": "%Y-%m-%d %H:%M:%S.%f"
         },
         "optional": false
       },

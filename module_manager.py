@@ -15,7 +15,7 @@ class ModuleManager:
         self._db_connection = DatabaseConnection.set_up_connection(config=config)
         self._performance = Performance.set_up_performance(config=config)
         self._semantic_header = SemanticHeader.create_semantic_header(config=config)
-        self._dataset_descriptions = DatasetDescriptions(config=config)
+        self._dataset_descriptions = DatasetDescriptions.from_file(path=config.dataset_description_path)
 
         self._db_manager = None
         self._oced_pg = None
